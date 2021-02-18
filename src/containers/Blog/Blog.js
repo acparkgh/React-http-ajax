@@ -29,7 +29,7 @@ class Blog extends Component {
                             </li>
                             {/* <li><Link to="/">Home</Link></li> */}
                             <li>
-                              <NavLink to={{ pathname: 'new-post',
+                              <NavLink to={{ pathname: '/new-post',
                                              hash: '#submit',
                                              search: '?quick-submit=true'
 
